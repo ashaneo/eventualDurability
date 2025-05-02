@@ -1,0 +1,11 @@
+{
+    "tables": {
+        "users": {
+            "columns": [
+                "id",
+                "name"
+            ],
+            "primary_key": "id"
+        }
+    }
+}
