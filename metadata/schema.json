@@ -3,7 +3,10 @@
         "users": {
             "columns": [
                 "id",
-                "name"
+                "name",
+                "age",
+                "email",
+                "status"
             ],
             "primary_key": "id"
         }

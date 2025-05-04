@@ -1,1 +1,3 @@
 1746212428.2118795: CREATE_TABLE users ["id", "name"] PK id
+1746346067.9644535: DROP_TABLE users
+1746346073.7971458: CREATE_TABLE users ["id", "name", "age", "email", "status"] PK id
