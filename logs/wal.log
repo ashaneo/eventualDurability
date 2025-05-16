@@ -1,3 +1,6 @@
 1746212428.2118795: CREATE_TABLE users ["id", "name"] PK id
 1746346067.9644535: DROP_TABLE users
 1746346073.7971458: CREATE_TABLE users ["id", "name", "age", "email", "status"] PK id
+1747401618.3317657: BEGIN 1747401618331
+1747401618.339632: INSERT 1747401618331 users {"id": 1, "name": "Alice", "age": 30, "email": "alice@mail", "status": "active"}
+1747401618.3434587: COMMIT 1747401618331
