@@ -14,6 +14,7 @@ def load_schema() -> dict:
     # try reading; if corrupted or empty -> reset
     try:
         with open(SCHEMA, encoding="utf-8") as f:
+            print("schema loaded")
             return json.load(f)
     except (json.JSONDecodeError, OSError):
         print("[yellow]schema.json empty or corrupt – re-initialising[/yellow]")
