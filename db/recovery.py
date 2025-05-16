@@ -27,4 +27,5 @@ def recover():
                 if txn in committed:
                     with open(os.path.join(DATA,f"{tbl}.dat"),"a") as f: f.write(row_json+"\n")
     save_schema(sch)
+    
     print("🔄 recovery done.")
